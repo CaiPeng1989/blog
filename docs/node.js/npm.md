@@ -3,14 +3,14 @@
 ## .npmrc
 
 ```
-registry=https://registry.npm.taobao.org/
 chromedriver_cdnurl=https://npm.taobao.org/mirrors/chromedriver
-phantomjs_cdnurl=http://npm.taobao.org/mirrors/phantomjs
-operadriver_cdnurl=http://npm.taobao.org/mirrors/operadriver
-selenium_cdnurl=http://npm.taobao.org/mirrors/selenium
-electron_mirrors=http://npm.taobao.org/mirrors/electron
+phantomjs_cdnurl=https://npm.taobao.org/mirrors/phantomjs
+operadriver_cdnurl=https://npm.taobao.org/mirrors/operadriver
+selenium_cdnurl=https://npm.taobao.org/mirrors/selenium
+ELECTRON_MIRROR=https://npm.taobao.org/mirrors/electron/
 sass_binary_site=https://npm.taobao.org/mirrors/node-sass
 puppeteer_download_host=https://npm.taobao.org/mirrors/chromium-browser-snapshots
+shamefully-hoist=true
 ```
 
 ## 修改npm镜像源
@@ -34,7 +34,7 @@ npm i nrm -g
 nrm ues 镜像源别名
 ```
 
-- 直接修改 `.npmrc` 文件。打开 `系统盘符:\Users\当前登录用户名` 目录，找到/新建 `.npmrc` 文件并修改内容。[本人`.npmrc` 文件内容。](#npmrc)
+- 直接修改 `.npmrc` 文件（仅适用于windows）。打开 `系统盘符:\Users\当前登录用户名` 目录，找到/新建 `.npmrc` 文件并修改内容。[本人`.npmrc` 文件内容。](#npmrc)
 ```
 registry=镜像源
 ```
