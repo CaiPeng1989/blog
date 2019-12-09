@@ -12,7 +12,7 @@ const javascriptChildren = getChildren('javascript')
 const vscodeChildren = getChildren('vscode')
 
 module.exports = ctx => ({
-  base: 'Blog',
+  base: '/blog/',
   title: `Blog`,
   dest: 'dist',
   evergreen: true,
