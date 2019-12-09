@@ -31,22 +31,6 @@ module.exports = {
 }
 ```
 
-`vscode配置`
-```json
-    "eslint.validate": [
-        "javascript",
-        "javascriptreact",
-        {
-            "language": "html",
-            "autoFix": true
-        },
-        {
-            "language": "vue",
-            "autoFix": true
-        }
-    ]
-```
-
 ## typescript版本
 
 `.eslintrc.js`
@@ -88,25 +72,33 @@ module.exports = {
 ```
 
 `vscode配置`
+全局：`setting.json`
+项目：`.vscode/setting.json`
 ```json
-    "eslint.validate": [
-        "javascript",
-        "javascriptreact",
-        {
-            "language": "html",
-            "autoFix": true
-        },
-        {
-            "language": "vue",
-            "autoFix": true
-        },
-        {
-            "language": "typescript",
-            "autoFix": true
-        },
-        {
-            "language": "typescriptreact",
-            "autoFix": true
-        }
-    ]
+{
+  "eslint.validate": [
+    "javascript",
+		"javascriptreact",
+    {
+			"language": "html",
+			"autoFix": true
+    },
+    {
+			"language": "vue",
+			"autoFix": true
+    },
+    {
+			"language": "typescript",
+			"autoFix": true
+    },
+    {
+			"language": "typescriptangular",
+			"autoFix": true
+    },
+    {
+			"language": "typescriptreact",
+			"autoFix": true
+    }
+  ]
+}
 ```

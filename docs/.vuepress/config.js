@@ -3,6 +3,9 @@ const {
   path
 } = require('@vuepress/shared-utils')
 
+const moment = require('moment')
+moment.locale('zh-CN')
+
 const getChildren = parent => fs.readdirSync(path.resolve(__dirname, `../${parent}`)).map(filename => filename.slice(0, -3))
 
 const javascriptChildren = getChildren('javascript')
@@ -15,25 +18,32 @@ module.exports = ctx => ({
   plugins: [
     '@vuepress/nprogress',
     '@vuepress/back-to-top',
-    ['@vuepress/pwa', {
-      serviceWorker: true,
-      popupComponent: 'MySWUpdatePopup',
-      updatePopup: {
-        message: "发现新内容可用",
-        buttonText: "刷新"
+    [
+      '@vuepress/last-updated',
+      {
+        transformer: (timestamp) => {
+          return moment(timestamp).fromNow()
+        }
       }
-    }],
+    ]
   ],
   themeConfig: {
-    themeConfig: {
-      lastUpdated: '上次更新',
-    },
+    lastUpdated: '上次更新',
+    smoothScroll: true,
 
     nav: [
       {
+        text: 'vue',
+        items: [
+          {
+            text: '食用composition-api的正确姿势',
+            link: '/vue/composition-api/食用composition-api的正确姿势.html'
+          }
+        ]
+      },
+      {
         text: `node.js包管理工具`,
         items: [
-
           {
             text: `npm`,
             link: `/node.js/npm.html`
@@ -78,6 +88,15 @@ module.exports = ctx => ({
     ],
 
     sidebar: {
+      '/vue/': [
+        {
+          title: 'vue',
+          collapsable: false,
+          children: [
+            '/vue/composition-api/食用composition-api的正确姿势.html'
+          ]
+        }
+      ],
       '/node.js/': [
         {
           title: `node.js包管理工具`,
