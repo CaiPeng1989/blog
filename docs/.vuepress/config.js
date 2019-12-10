@@ -175,5 +175,9 @@ module.exports = ctx => ({
         }
       ]
     }
-  }
+  },
+  markdown: {
+    lineNumbers: true
+  },
+  evergreen: true
 })
