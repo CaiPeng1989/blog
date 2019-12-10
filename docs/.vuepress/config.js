@@ -21,6 +21,7 @@ module.exports = ctx => ({
     'vuepress-plugin-typescript',
     '@vuepress/back-to-top',
     '@vuepress/active-header-links',
+    '@vuepress/medium-zoom',
     [
       '@vuepress/last-updated',
       {
