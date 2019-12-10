@@ -27,7 +27,7 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "158945a6ae200b3d6de7090b5620e790"
+    "revision": "d644e86c28d20434d890b548a03c41c1"
   },
   {
     "url": "assets/css/0.styles.33c1686d.css",
@@ -158,32 +158,36 @@ self.__precacheManifest = [
     "revision": "e4fe755d210ad0dbc37aa62156d1df33"
   },
   {
-    "url": "assets/js/39.a983c107.js",
-    "revision": "346c1c73ef7774345f022baa903b97bc"
+    "url": "assets/js/39.31099b58.js",
+    "revision": "02e99eea82ff03d052b1cb62a5899723"
   },
   {
     "url": "assets/js/4.4da64437.js",
     "revision": "40dda097c5c33de317a5eb2563b4f079"
   },
   {
-    "url": "assets/js/40.5739a875.js",
-    "revision": "d9833d49da68ff94cc82e4e7eeb74a35"
+    "url": "assets/js/40.bcd94ebc.js",
+    "revision": "085c55d83f6dd9f19b1b32f3312f5c44"
   },
   {
-    "url": "assets/js/41.a778a671.js",
-    "revision": "44d0c6fd41bb2efd0b05bb36845acdf2"
+    "url": "assets/js/41.3b49a856.js",
+    "revision": "22544bf5cd1adb04356265aafdabbd60"
   },
   {
-    "url": "assets/js/42.9c3c0dfa.js",
-    "revision": "57a7eda762731d7cfc47aa8884926d15"
+    "url": "assets/js/42.3ad2b9be.js",
+    "revision": "d62a2f1b490b3378e6efe4208639e3e9"
+  },
+  {
+    "url": "assets/js/43.506605d1.js",
+    "revision": "8b1046af15e2c387980e23c4b1b51eb6"
   },
   {
     "url": "assets/js/5.7cbaaf04.js",
     "revision": "f7bc85733b85c62602e3b5ee297977c3"
   },
   {
-    "url": "assets/js/6.67befbb4.js",
-    "revision": "c041ae3ae00cb39cf76d6fa0957d6d93"
+    "url": "assets/js/6.31369724.js",
+    "revision": "072e400e134603bd128edb332a76fa64"
   },
   {
     "url": "assets/js/7.416a8850.js",
@@ -198,8 +202,8 @@ self.__precacheManifest = [
     "revision": "46aaed2ed5169c3d79b4e55169e589ea"
   },
   {
-    "url": "assets/js/app.0fa72d48.js",
-    "revision": "15207d7faa09f0f1c56ec8b36667cc99"
+    "url": "assets/js/app.f296ae3f.js",
+    "revision": "653f72ef661c76838fb86655663ddebd"
   },
   {
     "url": "assets/js/vendors~composition-api.3bc43e7c.js",
@@ -207,139 +211,143 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "5e11996f08c0b89fdf4efc61e36e12cb"
+    "revision": "34e1c821f951d8b83cc5012bcf9548df"
   },
   {
     "url": "javascript/2019前端必用正则表达式汇总整理.html",
-    "revision": "c3279a9770f1ee05fd452170c814495d"
+    "revision": "252065ad553aeaec7eb2808320dd8981"
   },
   {
     "url": "javascript/Array.html",
-    "revision": "8a51ab5be7cc791c59f7702dac042875"
+    "revision": "520fbc19ca68a39a4097b9e781e97536"
   },
   {
     "url": "javascript/Object.html",
-    "revision": "acde6dbf2ece43b84d3c33dd4357d2a0"
+    "revision": "ec4b6edbf20386fd5ed609aeadfda0ce"
   },
   {
     "url": "javascript/URLSearchParamsFormatter.html",
-    "revision": "ef18680d5a987b0c0268e468f9ed41a6"
+    "revision": "4a3390d701af49bf82c8b74b6fdb8b6d"
   },
   {
     "url": "javascript/下划线命名转成大驼峰命名.html",
-    "revision": "da58b0e533edee64fb1cd28ce5ccade4"
+    "revision": "d7a312d4cd7dfed650e5d0a60cb082e9"
   },
   {
     "url": "javascript/冒泡排序.html",
-    "revision": "415a34e1e293ed7bed5dc153c1a35efa"
+    "revision": "b69362ae114d44576c61a9ec9abad915"
   },
   {
     "url": "javascript/判断数据类型的方法.html",
-    "revision": "2d00b1d968aa16ff18dd7554c1b9a260"
+    "revision": "f5de197ae39a2680196b75ae6061c8fb"
   },
   {
     "url": "javascript/原型链.html",
-    "revision": "72750df7906293f1a8c1fb42f3d98f85"
+    "revision": "7efe175142a7798e547aed55e7ca83b0"
   },
   {
     "url": "javascript/去除字符串空格.html",
-    "revision": "bf2cce958c40ab4a25217dccafc434aa"
+    "revision": "42d59693d10ee60850ad5aab15dcdbf0"
   },
   {
     "url": "javascript/实现一个call或 apply.html",
-    "revision": "84bca6e8761180c492cf8c7308f3c7a4"
+    "revision": "93373633b4cc0dba09b6c84741337907"
   },
   {
     "url": "javascript/实现一个instanceOf.html",
-    "revision": "c8bb064362f5c4a909705ec7c59f65ff"
+    "revision": "9bd81d08dd853c44666f6246dea91438"
   },
   {
     "url": "javascript/实现一个继承.html",
-    "revision": "250069abdbedcfc5d46ffa6af66ce69d"
+    "revision": "06b465c54a5a565f8b0b6df1646a72d0"
   },
   {
     "url": "javascript/带有记忆功能的函数.html",
-    "revision": "2208282757679916fd7d796a3ec3df43"
+    "revision": "cac68f7bdb18f17e07a9db0a8b1985a4"
   },
   {
     "url": "javascript/快速排序.html",
-    "revision": "cc33586e6497a06959225b22cdc2e418"
+    "revision": "ac548ab0453ee8a20dcac7112858ddd8"
   },
   {
     "url": "javascript/手写代码.html",
-    "revision": "c49552ebca543af768f27ee24249c1ce"
+    "revision": "3eb670e35a3d080065cd067ef6d845f0"
   },
   {
     "url": "javascript/插入排序.html",
-    "revision": "a4cad6f6b33856981c0c7c0374d7743d"
+    "revision": "829093279dc3ad5eaba097854057e939"
   },
   {
     "url": "javascript/数组去重.html",
-    "revision": "392a709191416691a4e2047950cd762e"
+    "revision": "05dcf66367c8317ebd43338b27f9a412"
   },
   {
     "url": "javascript/深拷贝.html",
-    "revision": "8da646d8ca8a781fbca2fa844d092162"
+    "revision": "17ac4ae48aa20610797482ac0d97b117"
   },
   {
     "url": "javascript/节流.html",
-    "revision": "a7425f29603de892265a57843034fd1a"
+    "revision": "eb21686ae2e41c2fe3eda56b9c7ddfe3"
   },
   {
     "url": "javascript/防抖.html",
-    "revision": "1e93588d3c53aef326a3df8c9d1ab25e"
+    "revision": "3fc0df244415fc3cda851845a1e92f15"
   },
   {
     "url": "node.js/npm.html",
-    "revision": "0710dd44b3a75640913819e5afbce248"
+    "revision": "438e1a3e09d95bfaced616f9d64d3a01"
   },
   {
     "url": "node.js/nrm和yrm的区别.html",
-    "revision": "d41fdc4f92c84aeeab53f6c71ebf7003"
+    "revision": "a462c4072a700333a25abf7fbda98b2d"
   },
   {
     "url": "node.js/yarn.html",
-    "revision": "599ee9080db8405a39acde5f4933ae95"
+    "revision": "b705faeb2d5aae7e70eef9bfa1e56ba8"
   },
   {
     "url": "node.js/镜像源列表.html",
-    "revision": "928fef5c35768f3e4809ba7021d9bf9c"
+    "revision": "b632dd99271fcdbd857122d6defe91bb"
   },
   {
     "url": "react/react食用eslint的正确姿势.html",
-    "revision": "39ba986e6981086cc097725525ec6f93"
+    "revision": "f416c534fdb845c33007e2fcdb07de60"
   },
   {
     "url": "system/mac os/安装node.js.html",
-    "revision": "5373eb31f71a6705e4262cc3a2d08ddd"
+    "revision": "4c546360e09133ae32bf5cf680e75328"
   },
   {
     "url": "system/windows/windows10系统数字激活.html",
-    "revision": "d116e64c0c4e83cba72238f744d98468"
+    "revision": "7210ef3be324ebac28a071e8a2ab58ce"
   },
   {
     "url": "system/windows/windows10系统重置.html",
-    "revision": "97c0eda93752f7bda53b27c444d913f8"
+    "revision": "b74ee56bee9f67ed7be215d6a6e534ef"
   },
   {
     "url": "system/windows/windows7升级到windows10并数字激活.html",
-    "revision": "1d23fc27f51c05ade493a4741661417c"
+    "revision": "f3f899cb91c71f6091ef3cb2d85e68e2"
   },
   {
     "url": "system/windows/windows系统下硬盘重装系统.html",
-    "revision": "1471e3a21bb3534cf42b72db34bd8987"
+    "revision": "20325ed16f8c02e2f427018b46b8c78f"
+  },
+  {
+    "url": "system/windows/无法加载ps1文件.html",
+    "revision": "407673938596a04c4838eb8a8b60e395"
   },
   {
     "url": "vscode/插件列表.html",
-    "revision": "dd8bde258135017a848fbb20553a210e"
+    "revision": "f825908078a14671ea8975aca2986d68"
   },
   {
     "url": "vscode/配置文件.html",
-    "revision": "80a91e28e9158811213fe73fc2acc83e"
+    "revision": "1303c12bc8692b441f4fac74f505b55e"
   },
   {
     "url": "vue/composition-api/食用composition-api的正确姿势.html",
-    "revision": "e625f9dd4489f09a0f2e5b09fb9533ea"
+    "revision": "a0d5e3969c8320c01e23b6793dcecb04"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
