@@ -12,12 +12,13 @@ const javascriptChildren = getChildren('javascript')
 const vscodeChildren = getChildren('vscode')
 
 module.exports = ctx => ({
-  base: `/blog/`,
-  title: `Blog`,
+  base: '/blog/',
+  title: 'Blog',
   dest: 'dist',
   evergreen: true,
   plugins: [
     '@vuepress/nprogress',
+    'vuepress-plugin-typescript',
     '@vuepress/back-to-top',
     '@vuepress/active-header-links',
     [
@@ -30,14 +31,14 @@ module.exports = ctx => ({
     ],
     [
       '@vuepress/pwa',
-       {
+      {
         serviceWorker: true,
         popupComponent: 'MySWUpdatePopup',
         updatePopup: {
-          message: "发现新内容可用",
-          buttonText: "刷新"
+          message: '发现新内容可用',
+          buttonText: '刷新'
         }
-       }
+      }
     ]
   ],
   themeConfig: {
@@ -69,28 +70,28 @@ module.exports = ctx => ({
         ]
       },
       {
-        text: `node.js包管理工具`,
+        text: 'node.js包管理工具',
         items: [
           {
-            text: `npm`,
-            link: `/node.js/npm.html`
+            text: 'npm',
+            link: '/node.js/npm.html'
           },
           {
-            text: `yarn`,
-            link: `/node.js/yarn.html`
+            text: 'yarn',
+            link: '/node.js/yarn.html'
           }
         ]
       },
       {
-        text: `系统`,
+        text: '系统',
         items: [
           {
-            text: `windows`,
-            link: `/system/windows/windows系统下硬盘重装系统.html`,
+            text: 'windows',
+            link: '/system/windows/windows系统下硬盘重装系统.html'
           },
           {
-            text: `mac os`,
-            link: `/system/mac os/安装node.js.html`
+            text: 'mac os',
+            link: '/system/mac os/安装node.js.html'
           }
         ]
       },
@@ -135,7 +136,7 @@ module.exports = ctx => ({
       ],
       '/node.js/': [
         {
-          title: `node.js包管理工具`,
+          title: 'node.js包管理工具',
           collapsable: false,
           children: getChildren('node.js')
         }
@@ -143,7 +144,7 @@ module.exports = ctx => ({
 
       '/system/windows/': [
         {
-          title: `windows`,
+          title: 'windows',
           collapsable: false,
           children: getChildren('system/windows')
         }
@@ -151,17 +152,17 @@ module.exports = ctx => ({
 
       '/system/mac os/': [
         {
-          title: `mac os`,
+          title: 'mac os',
           collapsable: false,
           children: [
-            `安装node.js`
+            '安装node.js'
           ]
         }
       ],
 
       '/javascript/': [
         {
-          title: `javascript`,
+          title: 'javascript',
           collapsable: false,
           children: javascriptChildren
         }
@@ -169,7 +170,7 @@ module.exports = ctx => ({
 
       '/vscode/': [
         {
-          title: `vscode`,
+          title: 'vscode',
           collapsable: false,
           children: vscodeChildren
         }
@@ -178,6 +179,5 @@ module.exports = ctx => ({
   },
   markdown: {
     lineNumbers: true
-  },
-  evergreen: true
+  }
 })

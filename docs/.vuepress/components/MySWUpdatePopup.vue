@@ -1,6 +1,7 @@
 <template>
   <SWUpdatePopup>
     <div
+      v-if="enabled"
       slot-scope="{ enabled, reload, message, buttonText }"
       class="my-sw-update-popup">
       {{ message }}<br>
@@ -13,7 +14,9 @@
 import SWUpdatePopup from '@vuepress/plugin-pwa/lib/SWUpdatePopup.vue'
 
 export default {
-  components: { SWUpdatePopup }
+  components: {
+    SWUpdatePopup
+  }
 }
 </script>
 
