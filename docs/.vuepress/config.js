@@ -19,6 +19,7 @@ module.exports = ctx => ({
   plugins: [
     '@vuepress/nprogress',
     '@vuepress/back-to-top',
+    '@vuepress/active-header-links',
     [
       '@vuepress/last-updated',
       {
@@ -26,6 +27,14 @@ module.exports = ctx => ({
           return moment(timestamp).fromNow()
         }
       }
+    ],
+    [
+      '@vuepress/pwa',
+       {
+        serviceWorker: true,
+        popupComponent: 'MySWUpdatePopup',
+        updatePopup: true
+       }
     ]
   ],
   themeConfig: {
@@ -34,11 +43,25 @@ module.exports = ctx => ({
 
     nav: [
       {
-        text: 'vue',
+        text: '前端框架',
         items: [
           {
-            text: '食用composition-api的正确姿势',
-            link: '/vue/composition-api/食用composition-api的正确姿势.html'
+            text: 'vue',
+            items: [
+              {
+                text: '食用composition-api的正确姿势',
+                link: '/vue/composition-api/食用composition-api的正确姿势.html'
+              }
+            ]
+          },
+          {
+            text: 'react',
+            items: [
+              {
+                text: 'react食用eslint的正确姿势',
+                link: '/react/react食用eslint的正确姿势.html'
+              }
+            ]
           }
         ]
       },
@@ -95,6 +118,15 @@ module.exports = ctx => ({
           collapsable: false,
           children: [
             '/vue/composition-api/食用composition-api的正确姿势.html'
+          ]
+        }
+      ],
+      '/react/': [
+        {
+          title: 'react',
+          collapsable: false,
+          children: [
+            '/react/react食用eslint的正确姿势.html'
           ]
         }
       ],
