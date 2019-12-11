@@ -1,10 +1,10 @@
-<script>
 import {
+  createComponent,
   createElement
 } from '@vue/composition-api'
 const h = createElement
 
-export default {
+export default createComponent({
   setup: () => {
     return () => (
       <div id="app">
@@ -16,5 +16,4 @@ export default {
       </div>
     )
   }
-}
-</script>
+})

@@ -106,7 +106,7 @@
 
 <<< @/docs/.vuepress/markdown/fragments/composition-api/js/eslintrc.js
 
-<<< @/docs/.vuepress/markdown/fragments/composition-api/js/index.vue
+<<< @/docs/.vuepress/markdown/fragments/composition-api/js/example.js
 
 ## tsx使用方式
 
@@ -114,8 +114,8 @@
 
 <<< @/docs/.vuepress/markdown/fragments/composition-api/ts/router.ts
 
-<<< @/docs/.vuepress/markdown/fragments/composition-api/ts/index.vue
+<<< @/docs/.vuepress/markdown/fragments/composition-api/ts/example.ts
 
 ## 举个🌰
 
-<<< @/docs/.vuepress/markdown/fragments/composition-api/example.vue
+<<< @/docs/.vuepress/markdown/fragments/composition-api/example.ts

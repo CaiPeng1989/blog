@@ -1,11 +1,9 @@
-<script lang="tsx">
 import {
-  createComponent,
   createElement
 } from '@vue/composition-api'
 const h = createElement
 
-export default createComponent({
+export default {
   setup: () => {
     return () => (
       <div id="app">
@@ -17,5 +15,4 @@ export default createComponent({
       </div>
     )
   }
-})
-</script>
+}
