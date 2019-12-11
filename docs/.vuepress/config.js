@@ -16,6 +16,11 @@ module.exports = ctx => ({
   title: 'Blog',
   dest: 'dist',
   evergreen: true,
+  locales: {
+    '/': {
+      lang: 'zh-CN'
+    }
+  },
   plugins: [
     '@vuepress/nprogress',
     'vuepress-plugin-typescript',
