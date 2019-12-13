@@ -26,7 +26,8 @@ export default createComponent({
     }
   },
 
-  setup: (props, { refs, root: { $route, $router } }) => {
+  setup: (props, ctx) => {
+    const { refs, root: { $route, $router } } = ctx
     watch(() => $route, (value) => {
       console.log(value)
     })

@@ -118,4 +118,4 @@
 
 ## 举个🌰
 
-<<< @/docs/.vuepress/markdown/fragments/composition-api/example.ts
+<<< @/docs/.vuepress/markdown/fragments/composition-api/example.tsx
