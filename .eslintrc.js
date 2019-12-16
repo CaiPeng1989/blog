@@ -9,6 +9,7 @@ module.exports = {
     '@vue/typescript'
   ],
   rules: {
+    'no-undef': 'off',
     'no-unused-vars': 'off'
   },
   parserOptions: {
