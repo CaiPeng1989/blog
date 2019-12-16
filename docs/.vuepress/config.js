@@ -16,6 +16,15 @@ module.exports = ctx => ({
   title: 'Blog',
   dest: 'dist',
   evergreen: true,
+  head: [
+    [
+      'link',
+      {
+        rel: 'icon',
+        href: '/favicon.ico'
+      }
+    ]
+  ],
   locales: {
     '/': {
       lang: 'zh-CN'
