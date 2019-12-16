@@ -3,6 +3,7 @@
   "description": "Blog",
   "version": "1.0.0",
   "scripts": {
+    "bootstrap": "yarn",
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
     "lint": "vue-cli-service lint"
@@ -33,7 +34,8 @@
     "moment": "^2.24.0",
     "typescript": "^3.7.3",
     "vuepress": "^1.2.0",
-    "vuepress-plugin-typescript": "^0.1.1"
+    "vuepress-plugin-typescript": "^0.1.1",
+    "vuepress-plugin-nprogress": "^1.1.6"
   },
   "dependencies": {
     "@vue/composition-api": "^0.3.4"

@@ -22,11 +22,10 @@ module.exports = ctx => ({
     }
   },
   plugins: [
-    '@vuepress/nprogress',
-    'vuepress-plugin-typescript',
-    '@vuepress/back-to-top',
     '@vuepress/active-header-links',
+    '@vuepress/back-to-top',
     '@vuepress/medium-zoom',
+    '@vuepress/nprogress',
     [
       '@vuepress/last-updated',
       {
@@ -45,7 +44,9 @@ module.exports = ctx => ({
           buttonText: '刷新'
         }
       }
-    ]
+    ],
+    'vuepress-plugin-nprogress',
+    'vuepress-plugin-typescript'
   ],
   themeConfig: {
     lastUpdated: '上次更新',
