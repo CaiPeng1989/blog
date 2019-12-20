@@ -3,8 +3,12 @@ const {
   path
 } = require('@vuepress/shared-utils')
 
-const moment = require('moment')
-moment.locale('zh-CN')
+const dayjs = require('dayjs')
+const relativeTime = require('dayjs/plugin/relativeTime')
+require('dayjs/locale/zh-cn')
+
+dayjs.locale('zh-cn')
+dayjs.extend(relativeTime)
 
 const getChildren = parent => fs.readdirSync(path.resolve(__dirname, `../${parent}`)).map(filename => filename.slice(0, -3))
 
@@ -39,7 +43,7 @@ module.exports = ctx => ({
       '@vuepress/last-updated',
       {
         transformer: (timestamp) => {
-          return moment(timestamp).fromNow()
+          return dayjs(timestamp).fromNow()
         }
       }
     ],
@@ -55,6 +59,7 @@ module.exports = ctx => ({
       }
     ],
     'vuepress-plugin-nprogress',
+    'vuepress-plugin-reading-progress',
     'vuepress-plugin-typescript'
   ],
   themeConfig: {
