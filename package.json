@@ -1,23 +1,26 @@
 {
   "name": "blog",
-  "description": "Blog",
   "version": "1.0.0",
-  "scripts": {
-    "bootstrap": "yarn",
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs",
-    "lint": "vue-cli-service lint"
-  },
+  "description": "Blog",
   "author": "Cai Peng",
-  "license": "ISC",
+  "scripts": {
+    "lint": "vue-cli-service lint",
+    "bootstrap": "yarn",
+    "docs:build": "vuepress build docs",
+    "docs:dev": "vuepress dev docs"
+  },
+  "dependencies": {
+    "@vue/composition-api": "^0.3.4",
+    "dayjs": "^1.8.19"
+  },
   "devDependencies": {
-    "@nuxt/types": "^0.5.7",
-    "@typescript-eslint/eslint-plugin": "^2.12.0",
-    "@typescript-eslint/parser": "^2.12.0",
-    "@vue/cli-plugin-babel": "^4.1.1",
-    "@vue/cli-plugin-eslint": "^4.1.1",
-    "@vue/cli-plugin-typescript": "^4.1.1",
-    "@vue/cli-service": "^4.1.1",
+    "@nuxt/types": "^0.6.0",
+    "@typescript-eslint/eslint-plugin": "^2.15.0",
+    "@typescript-eslint/parser": "^2.15.0",
+    "@vue/cli-plugin-babel": "^4.1.2",
+    "@vue/cli-plugin-eslint": "^4.1.2",
+    "@vue/cli-plugin-typescript": "^4.1.2",
+    "@vue/cli-service": "^4.1.2",
     "@vue/eslint-config-standard": "^5.0.1",
     "@vue/eslint-config-typescript": "^5.0.1",
     "@vuepress/plugin-active-header-links": "^1.2.0",
@@ -25,20 +28,17 @@
     "@vuepress/plugin-medium-zoom": "^1.2.0",
     "@vuepress/plugin-nprogress": "^1.2.0",
     "@vuepress/plugin-pwa": "^1.2.0",
-    "eslint": "^6.7.2",
+    "eslint": "^6.8.0",
     "eslint-plugin-import": "^2.19.1",
     "eslint-plugin-node": "^10.0.0",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.1",
-    "eslint-plugin-vue": "^6.0.1",
-    "typescript": "^3.7.3",
+    "eslint-plugin-vue": "^6.1.2",
+    "typescript": "^3.7.4",
     "vuepress": "^1.2.0",
     "vuepress-plugin-nprogress": "^1.1.6",
     "vuepress-plugin-reading-progress": "^1.0.8",
     "vuepress-plugin-typescript": "^0.1.1"
   },
-  "dependencies": {
-    "@vue/composition-api": "^0.3.4",
-    "dayjs": "^1.8.18"
-  }
+  "license": "ISC"
 }
