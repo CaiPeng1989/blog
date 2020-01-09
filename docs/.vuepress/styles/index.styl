@@ -21,6 +21,12 @@ body {
   background: rgb(196, 201, 211)
 }
 
+div[class~="language-"] {
+  &:before {
+    content "txt"
+  }
+}
+
 div[class~="language-tsx"] {
   &:before {
     content "tsx"
