@@ -8,7 +8,7 @@
    1. 下载 [**软媒硬盘装机 1.0 独立版**](http://down.ruanmei.com/hdbooter/hdbooter_1.0.zip)
    2. 下载windows系统镜像
 ```
-ed2k://|file|cn_windows_10_consumer_editions_version_1909_x64_dvd_76365bf8.iso|5381154816|6A56DE112B164EC054D1104C53F8F10B|/
+ed2k://|file|cn_windows_10_consumer_editions_version_1909_updated_dec_2019_x64_dvd_835a48d3.iso|5406394368|E22B7B686A83B967ABFABA216F97D150|/
 ```
 
 2. 打开软媒硬盘装机，选择镜像、解压位置以及附加选项，
