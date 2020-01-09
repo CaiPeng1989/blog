@@ -58,6 +58,13 @@ module.exports = ctx => ({
         }
       }
     ],
+    [
+      'vuepress-plugin-code-copy',
+      {
+        align: 'top',
+        successText: '复制成功！'
+      }
+    ],
     'vuepress-plugin-nprogress',
     'vuepress-plugin-reading-progress',
     'vuepress-plugin-typescript'

@@ -1,19 +1,22 @@
 {
   "name": "blog",
-  "description": "Blog",
   "version": "1.0.0",
-  "scripts": {
-    "bootstrap": "yarn",
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs",
-    "lint": "vue-cli-service lint"
-  },
+  "description": "Blog",
   "author": "Cai Peng",
-  "license": "ISC",
+  "scripts": {
+    "lint": "vue-cli-service lint",
+    "bootstrap": "yarn",
+    "docs:build": "vuepress build docs",
+    "docs:dev": "vuepress dev docs"
+  },
+  "dependencies": {
+    "@vue/composition-api": "^0.3.4",
+    "dayjs": "^1.8.19"
+  },
   "devDependencies": {
-    "@nuxt/types": "^0.5.9",
-    "@typescript-eslint/eslint-plugin": "^2.14.0",
-    "@typescript-eslint/parser": "^2.14.0",
+    "@nuxt/types": "^0.6.0",
+    "@typescript-eslint/eslint-plugin": "^2.15.0",
+    "@typescript-eslint/parser": "^2.15.0",
     "@vue/cli-plugin-babel": "^4.1.2",
     "@vue/cli-plugin-eslint": "^4.1.2",
     "@vue/cli-plugin-typescript": "^4.1.2",
@@ -33,12 +36,10 @@
     "eslint-plugin-vue": "^6.1.2",
     "typescript": "^3.7.4",
     "vuepress": "^1.2.0",
+    "vuepress-plugin-code-copy": "^1.0.4",
     "vuepress-plugin-nprogress": "^1.1.6",
     "vuepress-plugin-reading-progress": "^1.0.8",
     "vuepress-plugin-typescript": "^0.1.1"
   },
-  "dependencies": {
-    "@vue/composition-api": "^0.3.4",
-    "dayjs": "^1.8.18"
-  }
+  "license": "ISC"
 }

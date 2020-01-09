@@ -21,6 +21,12 @@ body {
   background: rgb(196, 201, 211)
 }
 
+div[class~="language-"] {
+  &:before {
+    content "txt"
+  }
+}
+
 div[class~="language-tsx"] {
   &:before {
     content "tsx"
@@ -31,4 +37,11 @@ div[class~="language-jsx"] {
   &:before {
     content "jsx"
   }
+}
+
+.code-copy {
+  position: absolute;
+  top: 1.2em;
+  right: 0;
+  opacity: 0;
 }
