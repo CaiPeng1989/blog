@@ -81,6 +81,10 @@ module.exports = ctx => ({
             text: 'vue',
             items: [
               {
+                text: 'vue-next尝鲜',
+                link: '/vue/vue-next/vue-next尝鲜.html'
+              },
+              {
                 text: '食用composition-api的正确姿势',
                 link: '/vue/composition-api/食用composition-api的正确姿势.html'
               }
@@ -149,6 +153,7 @@ module.exports = ctx => ({
           title: 'vue',
           collapsable: false,
           children: [
+            '/vue/vue-next/vue-next尝鲜.html',
             '/vue/composition-api/食用composition-api的正确姿势.html'
           ]
         }
