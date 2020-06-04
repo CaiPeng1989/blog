@@ -3,6 +3,7 @@
 ## .npmrc
 
 ```
+registry=https://registry.npm.taobao.org
 chromedriver_cdnurl=https://npm.taobao.org/mirrors/chromedriver
 phantomjs_cdnurl=https://npm.taobao.org/mirrors/phantomjs
 operadriver_cdnurl=https://npm.taobao.org/mirrors/operadriver
