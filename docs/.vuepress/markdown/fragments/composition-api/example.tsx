@@ -1,12 +1,13 @@
 import {
-  createComponent,
-  createElement,
-  ref,
-  onMounted,
-  watch,
   computed,
-  reactive
+  createElement,
+  defineComponent,
+  onMounted,
+  reactive,
+  ref,
+  watch
 } from '@vue/composition-api'
+
 const h = createElement
 
 interface State {
@@ -16,7 +17,7 @@ interface State {
   }[]
 }
 
-export default createComponent({
+export default defineComponent({
   name: 'HelloWorld',
 
   props: {

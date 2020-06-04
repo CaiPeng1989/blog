@@ -1,10 +1,11 @@
 import {
-  createComponent,
-  createElement
+  createElement,
+  defineComponent
 } from '@vue/composition-api'
+
 const h = createElement
 
-export default createComponent({
+export default defineComponent({
   setup: () => {
     return () => (
       <div id="app">
