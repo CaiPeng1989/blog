@@ -1,7 +1,25 @@
 {
-  "files.exclude": {
-    "**/node_modules": true
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
   },
-  "files.trimTrailingWhitespace": false,
+  "eslint.packageManager": "yarn",
+  "eslint.validate": [
+    "html",
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptangular",
+    "typescriptreact",
+    "vue"
+  ],
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "prettier.tabWidth": 2,
+  "search.exclude": {
+    "**/dist": true
+  },
+  "vetur.experimental.templateInterpolationService": false,
+  "vetur.format.defaultFormatter.html": "js-beautify-html",
   "typescript.tsdk": "node_modules\\typescript\\lib"
 }
