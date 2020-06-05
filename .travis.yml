@@ -2,7 +2,7 @@ language: node_js
 node_js:
   - lts/*
 before_install:
-  _ yarn set version berry
+  - yarn set version berry
 install:
   - yarn install # npm ci
 script:
