@@ -1,8 +1,10 @@
 language: node_js
 node_js:
   - lts/*
+before_install:
+  _ yarn set version berry
 install:
-  - yarn bootstrap # npm ci
+  - yarn install # npm ci
 script:
   - yarn docs:build # npm run docs:build
 deploy:
