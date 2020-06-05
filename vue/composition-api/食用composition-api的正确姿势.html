@@ -4,12 +4,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>食用composition-api的正确姿势 | Blog</title>
-    <meta name="description" content="">
-    <meta name="generator" content="VuePress 1.3.0">
+    <meta name="generator" content="VuePress 1.5.0">
     <link rel="icon" href="/blog/favicon.ico">
-    
-    <link rel="preload" href="/blog/assets/css/0.styles.e4652b28.css" as="style"><link rel="preload" href="/blog/assets/js/app.1fb47c7b.js" as="script"><link rel="preload" href="/blog/assets/js/3.e23d2e11.js" as="script"><link rel="preload" href="/blog/assets/js/42.023d23fe.js" as="script"><link rel="preload" href="/blog/assets/js/4.8e0d770d.js" as="script"><link rel="prefetch" href="/blog/assets/js/10.abc03eb8.js"><link rel="prefetch" href="/blog/assets/js/11.7deb1693.js"><link rel="prefetch" href="/blog/assets/js/12.d060ee23.js"><link rel="prefetch" href="/blog/assets/js/13.072947e9.js"><link rel="prefetch" href="/blog/assets/js/14.dcebe8a8.js"><link rel="prefetch" href="/blog/assets/js/15.67af6a0c.js"><link rel="prefetch" href="/blog/assets/js/16.3d6ee986.js"><link rel="prefetch" href="/blog/assets/js/17.5cba7332.js"><link rel="prefetch" href="/blog/assets/js/18.797690b4.js"><link rel="prefetch" href="/blog/assets/js/19.936a8061.js"><link rel="prefetch" href="/blog/assets/js/20.9ff9cf9f.js"><link rel="prefetch" href="/blog/assets/js/21.497bd6cd.js"><link rel="prefetch" href="/blog/assets/js/22.f2cfbc5e.js"><link rel="prefetch" href="/blog/assets/js/23.21921ed9.js"><link rel="prefetch" href="/blog/assets/js/24.6f5c7c94.js"><link rel="prefetch" href="/blog/assets/js/25.bd5abb4c.js"><link rel="prefetch" href="/blog/assets/js/26.47f0294c.js"><link rel="prefetch" href="/blog/assets/js/27.4e769d0f.js"><link rel="prefetch" href="/blog/assets/js/28.f388033b.js"><link rel="prefetch" href="/blog/assets/js/29.497856e9.js"><link rel="prefetch" href="/blog/assets/js/30.39ad2375.js"><link rel="prefetch" href="/blog/assets/js/31.352dd50a.js"><link rel="prefetch" href="/blog/assets/js/32.4518d778.js"><link rel="prefetch" href="/blog/assets/js/33.b3763067.js"><link rel="prefetch" href="/blog/assets/js/34.0161234e.js"><link rel="prefetch" href="/blog/assets/js/35.efda1d8f.js"><link rel="prefetch" href="/blog/assets/js/36.76286b0e.js"><link rel="prefetch" href="/blog/assets/js/37.48a40922.js"><link rel="prefetch" href="/blog/assets/js/38.fafc6647.js"><link rel="prefetch" href="/blog/assets/js/39.f37c8151.js"><link rel="prefetch" href="/blog/assets/js/40.4aad44e0.js"><link rel="prefetch" href="/blog/assets/js/41.bd12b299.js"><link rel="prefetch" href="/blog/assets/js/43.f0885d47.js"><link rel="prefetch" href="/blog/assets/js/44.b916c33c.js"><link rel="prefetch" href="/blog/assets/js/5.763f9e55.js"><link rel="prefetch" href="/blog/assets/js/6.7dbe80e6.js"><link rel="prefetch" href="/blog/assets/js/7.fc7078a4.js"><link rel="prefetch" href="/blog/assets/js/8.dcb413f9.js"><link rel="prefetch" href="/blog/assets/js/9.953f6bdb.js"><link rel="prefetch" href="/blog/assets/js/vendors~composition-api.f8b2f9eb.js">
-    <link rel="stylesheet" href="/blog/assets/css/0.styles.e4652b28.css">
+    <meta name="description" content="">
+    <link rel="preload" href="/blog/assets/css/0.styles.9429f6c8.css" as="style"><link rel="preload" href="/blog/assets/js/app.80e45fab.js" as="script"><link rel="preload" href="/blog/assets/js/3.bd4970f9.js" as="script"><link rel="preload" href="/blog/assets/js/42.a4755737.js" as="script"><link rel="preload" href="/blog/assets/js/4.93956780.js" as="script"><link rel="prefetch" href="/blog/assets/js/10.225efc15.js"><link rel="prefetch" href="/blog/assets/js/11.a9b318b2.js"><link rel="prefetch" href="/blog/assets/js/12.a6a27d39.js"><link rel="prefetch" href="/blog/assets/js/13.eea11949.js"><link rel="prefetch" href="/blog/assets/js/14.57ed5f0a.js"><link rel="prefetch" href="/blog/assets/js/15.4653755c.js"><link rel="prefetch" href="/blog/assets/js/16.f9b94c4c.js"><link rel="prefetch" href="/blog/assets/js/17.7aabf805.js"><link rel="prefetch" href="/blog/assets/js/18.590a324d.js"><link rel="prefetch" href="/blog/assets/js/19.124cef52.js"><link rel="prefetch" href="/blog/assets/js/20.53cd7ccc.js"><link rel="prefetch" href="/blog/assets/js/21.35b5c3b7.js"><link rel="prefetch" href="/blog/assets/js/22.b6d518e5.js"><link rel="prefetch" href="/blog/assets/js/23.48748f8a.js"><link rel="prefetch" href="/blog/assets/js/24.1dd3f861.js"><link rel="prefetch" href="/blog/assets/js/25.968cd4dd.js"><link rel="prefetch" href="/blog/assets/js/26.d0ae3a2c.js"><link rel="prefetch" href="/blog/assets/js/27.a2b1ccc3.js"><link rel="prefetch" href="/blog/assets/js/28.c2071ccb.js"><link rel="prefetch" href="/blog/assets/js/29.4347afdd.js"><link rel="prefetch" href="/blog/assets/js/30.4d87a4f6.js"><link rel="prefetch" href="/blog/assets/js/31.b6cbdd43.js"><link rel="prefetch" href="/blog/assets/js/32.b42086c1.js"><link rel="prefetch" href="/blog/assets/js/33.5322746a.js"><link rel="prefetch" href="/blog/assets/js/34.605cb958.js"><link rel="prefetch" href="/blog/assets/js/35.e9222100.js"><link rel="prefetch" href="/blog/assets/js/36.21597624.js"><link rel="prefetch" href="/blog/assets/js/37.4bd98cc7.js"><link rel="prefetch" href="/blog/assets/js/38.eac91527.js"><link rel="prefetch" href="/blog/assets/js/39.a4093538.js"><link rel="prefetch" href="/blog/assets/js/40.e609048d.js"><link rel="prefetch" href="/blog/assets/js/41.a366c5e0.js"><link rel="prefetch" href="/blog/assets/js/43.6c858fc3.js"><link rel="prefetch" href="/blog/assets/js/44.d7336d73.js"><link rel="prefetch" href="/blog/assets/js/5.38976443.js"><link rel="prefetch" href="/blog/assets/js/6.66b2c153.js"><link rel="prefetch" href="/blog/assets/js/7.c9604f88.js"><link rel="prefetch" href="/blog/assets/js/8.ad10daad.js"><link rel="prefetch" href="/blog/assets/js/9.27d3f0d6.js"><link rel="prefetch" href="/blog/assets/js/vendors~composition-api.4ff12ed7.js">
+    <link rel="stylesheet" href="/blog/assets/css/0.styles.9429f6c8.css">
   </head>
   <body>
     <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/blog/" class="home-link router-link-active"><!----> <span class="site-name">Blog</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="前端框架" class="dropdown-title"><span class="title">前端框架</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
@@ -152,8 +151,8 @@ Vue<span class="token punctuation">.</span><span class="token function">use</spa
 </code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><p>在 <code>main.ts</code> 引用</p> <div class="language-ts line-numbers-mode"><pre class="language-ts"><code><span class="token keyword">import</span> <span class="token string">'./plugins'</span>
 </code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><p>修改 <code>.eslintrc.js</code></p> <div class="language-js line-numbers-mode"><pre class="language-js"><code>module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
   <span class="token comment">// ...</span>
-  rules<span class="token punctuation">:</span> <span class="token punctuation">{</span>
-    <span class="token string">'no-unused-vars'</span><span class="token punctuation">:</span> <span class="token string">'off'</span>
+  rules<span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token string">'no-unused-vars'</span><span class="token operator">:</span> <span class="token string">'off'</span>
   <span class="token punctuation">}</span>
   <span class="token comment">// ...</span>
 <span class="token punctuation">}</span>
@@ -167,10 +166,10 @@ Vue<span class="token punctuation">.</span><span class="token function">use</spa
     <span class="token comment">// tslint:disable no-empty-interface</span>
     <span class="token keyword">interface</span> <span class="token class-name">ElementClass</span> <span class="token keyword">extends</span> <span class="token class-name">ComponentRenderProxy</span> <span class="token punctuation">{</span><span class="token punctuation">}</span>
     <span class="token keyword">interface</span> <span class="token class-name">ElementAttributesProperty</span> <span class="token punctuation">{</span>
-      $props<span class="token punctuation">:</span> <span class="token builtin">any</span><span class="token punctuation">;</span> <span class="token comment">// specify the property name to use</span>
+      $props<span class="token operator">:</span> <span class="token builtin">any</span><span class="token punctuation">;</span> <span class="token comment">// specify the property name to use</span>
     <span class="token punctuation">}</span>
     <span class="token keyword">interface</span> <span class="token class-name">IntrinsicElements</span> <span class="token punctuation">{</span>
-      <span class="token punctuation">[</span>elem<span class="token punctuation">:</span> <span class="token builtin">string</span><span class="token punctuation">]</span><span class="token punctuation">:</span> <span class="token builtin">any</span><span class="token punctuation">;</span>
+      <span class="token punctuation">[</span>elem<span class="token operator">:</span> <span class="token builtin">string</span><span class="token punctuation">]</span><span class="token operator">:</span> <span class="token builtin">any</span><span class="token punctuation">;</span>
     <span class="token punctuation">}</span>
   <span class="token punctuation">}</span>
 <span class="token punctuation">}</span>
@@ -181,7 +180,7 @@ Vue<span class="token punctuation">.</span><span class="token function">use</spa
 
 <span class="token keyword">declare</span> <span class="token keyword">module</span> <span class="token string">'@vue/composition-api/dist/component/component'</span> <span class="token punctuation">{</span>
   <span class="token keyword">interface</span> <span class="token class-name">SetupContext</span> <span class="token punctuation">{</span>
-    <span class="token keyword">readonly</span> refs<span class="token punctuation">:</span> <span class="token punctuation">{</span> <span class="token punctuation">[</span>key<span class="token punctuation">:</span> <span class="token builtin">string</span><span class="token punctuation">]</span><span class="token punctuation">:</span> Vue <span class="token operator">|</span> Element <span class="token operator">|</span> Vue<span class="token punctuation">[</span><span class="token punctuation">]</span> <span class="token operator">|</span> Element<span class="token punctuation">[</span><span class="token punctuation">]</span> <span class="token punctuation">}</span><span class="token punctuation">;</span>
+    <span class="token keyword">readonly</span> refs<span class="token operator">:</span> <span class="token punctuation">{</span> <span class="token punctuation">[</span>key<span class="token operator">:</span> <span class="token builtin">string</span><span class="token punctuation">]</span><span class="token operator">:</span> Vue <span class="token operator">|</span> Element <span class="token operator">|</span> Vue<span class="token punctuation">[</span><span class="token punctuation">]</span> <span class="token operator">|</span> Element<span class="token punctuation">[</span><span class="token punctuation">]</span> <span class="token punctuation">}</span><span class="token punctuation">;</span>
   <span class="token punctuation">}</span>
 <span class="token punctuation">}</span>
 </code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br></div></div><h2 id="nuxt-js版"><a href="#nuxt-js版" class="header-anchor">#</a> nuxt js版</h2> <div class="language-sh line-numbers-mode"><pre class="language-sh"><code><span class="token function">yarn</span> <span class="token function">add</span> @vue/composition-api
@@ -191,7 +190,7 @@ Vue<span class="token punctuation">.</span><span class="token function">use</spa
 Vue<span class="token punctuation">.</span><span class="token function">use</span><span class="token punctuation">(</span>VueCompositionApi<span class="token punctuation">)</span>
 </code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><p>修改 <code>nuxt.config.js</code> 中 <code>plugins</code> 选项</p> <div class="language-js line-numbers-mode"><pre class="language-js"><code>module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
   <span class="token comment">// ...</span>
-  plugins<span class="token punctuation">:</span> <span class="token punctuation">[</span>
+  plugins<span class="token operator">:</span> <span class="token punctuation">[</span>
     <span class="token string">'@/plugins/composition-api'</span>
   <span class="token punctuation">]</span>
   <span class="token comment">// ...</span>
@@ -203,7 +202,7 @@ Vue<span class="token punctuation">.</span><span class="token function">use</spa
 Vue<span class="token punctuation">.</span><span class="token function">use</span><span class="token punctuation">(</span>VueCompositionApi<span class="token punctuation">)</span>
 </code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><p>修改 <code>nuxt.config.js</code> 中 <code>plugins</code> 选项</p> <div class="language-js line-numbers-mode"><pre class="language-js"><code>module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
   <span class="token comment">// ...</span>
-  plugins<span class="token punctuation">:</span> <span class="token punctuation">[</span>
+  plugins<span class="token operator">:</span> <span class="token punctuation">[</span>
     <span class="token string">'@/plugins/composition-api'</span>
   <span class="token punctuation">]</span>
   <span class="token comment">// ...</span>
@@ -211,7 +210,7 @@ Vue<span class="token punctuation">.</span><span class="token function">use</spa
 </code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br></div></div><p>安装 <code>@nuxt/typescript-build</code></p> <div class="language-sh line-numbers-mode"><pre class="language-sh"><code><span class="token function">yarn</span> <span class="token function">add</span> @nuxt/typescript-build
 </code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><p>修改 <code>nuxt.config.js</code> 中 <code>buildModules</code> 选项</p> <div class="language-js line-numbers-mode"><pre class="language-js"><code>module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
   <span class="token comment">// ...</span>
-  buildModules<span class="token punctuation">:</span> <span class="token punctuation">[</span>
+  buildModules<span class="token operator">:</span> <span class="token punctuation">[</span>
     <span class="token string">'@nuxt/typescript-build'</span>
   <span class="token punctuation">]</span>
   <span class="token comment">// ...</span>
@@ -254,16 +253,16 @@ Vue<span class="token punctuation">.</span><span class="token function">use</spa
 <span class="token function">yarn</span> <span class="token function">add</span> @nuxtjs/eslint-config-typescript -D
 </code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><p>修改 <code>.eslintrc.js</code></p> <div class="language-js line-numbers-mode"><pre class="language-js"><code>module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
   <span class="token comment">// ...</span>
-  parserOptions<span class="token punctuation">:</span> <span class="token punctuation">{</span>
-    parser<span class="token punctuation">:</span> <span class="token string">'@typescript-eslint/parser'</span>
+  parserOptions<span class="token operator">:</span> <span class="token punctuation">{</span>
+    parser<span class="token operator">:</span> <span class="token string">'@typescript-eslint/parser'</span>
   <span class="token punctuation">}</span><span class="token punctuation">,</span>
-  <span class="token keyword">extends</span><span class="token punctuation">:</span> <span class="token punctuation">[</span>
+  <span class="token keyword">extends</span><span class="token operator">:</span> <span class="token punctuation">[</span>
     <span class="token string">'@nuxtjs/eslint-config-typescript'</span>
   <span class="token punctuation">]</span><span class="token punctuation">,</span>
-  rules<span class="token punctuation">:</span> <span class="token punctuation">{</span>
-    <span class="token string">'@typescript-eslint/no-unused-vars'</span><span class="token punctuation">:</span> <span class="token string">'off'</span><span class="token punctuation">,</span>
-    <span class="token string">'nuxt/no-cjs-in-config'</span><span class="token punctuation">:</span> <span class="token string">'off'</span><span class="token punctuation">,</span>
-    <span class="token string">'no-unused-vars'</span><span class="token punctuation">:</span> <span class="token string">'off'</span>
+  rules<span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token string">'@typescript-eslint/no-unused-vars'</span><span class="token operator">:</span> <span class="token string">'off'</span><span class="token punctuation">,</span>
+    <span class="token string">'nuxt/no-cjs-in-config'</span><span class="token operator">:</span> <span class="token string">'off'</span><span class="token punctuation">,</span>
+    <span class="token string">'no-unused-vars'</span><span class="token operator">:</span> <span class="token string">'off'</span>
   <span class="token punctuation">}</span>
   <span class="token comment">// ...</span>
 <span class="token punctuation">}</span>
@@ -282,10 +281,10 @@ Vue<span class="token punctuation">.</span><span class="token function">use</spa
     <span class="token comment">// tslint:disable no-empty-interface</span>
     <span class="token keyword">interface</span> <span class="token class-name">ElementClass</span> <span class="token keyword">extends</span> <span class="token class-name">ComponentRenderProxy</span> <span class="token punctuation">{</span><span class="token punctuation">}</span>
     <span class="token keyword">interface</span> <span class="token class-name">ElementAttributesProperty</span> <span class="token punctuation">{</span>
-      $props<span class="token punctuation">:</span> <span class="token builtin">any</span><span class="token punctuation">;</span> <span class="token comment">// specify the property name to use</span>
+      $props<span class="token operator">:</span> <span class="token builtin">any</span><span class="token punctuation">;</span> <span class="token comment">// specify the property name to use</span>
     <span class="token punctuation">}</span>
     <span class="token keyword">interface</span> <span class="token class-name">IntrinsicElements</span> <span class="token punctuation">{</span>
-      <span class="token punctuation">[</span>elem<span class="token punctuation">:</span> <span class="token builtin">string</span><span class="token punctuation">]</span><span class="token punctuation">:</span> <span class="token builtin">any</span><span class="token punctuation">;</span>
+      <span class="token punctuation">[</span>elem<span class="token operator">:</span> <span class="token builtin">string</span><span class="token punctuation">]</span><span class="token operator">:</span> <span class="token builtin">any</span><span class="token punctuation">;</span>
     <span class="token punctuation">}</span>
   <span class="token punctuation">}</span>
 <span class="token punctuation">}</span>
@@ -296,13 +295,13 @@ Vue<span class="token punctuation">.</span><span class="token function">use</spa
 
 <span class="token keyword">declare</span> <span class="token keyword">module</span> <span class="token string">'@vue/composition-api/dist/component/component'</span> <span class="token punctuation">{</span>
   <span class="token keyword">interface</span> <span class="token class-name">SetupContext</span> <span class="token punctuation">{</span>
-    <span class="token keyword">readonly</span> refs<span class="token punctuation">:</span> <span class="token punctuation">{</span> <span class="token punctuation">[</span>key<span class="token punctuation">:</span> <span class="token builtin">string</span><span class="token punctuation">]</span><span class="token punctuation">:</span> Vue <span class="token operator">|</span> Element <span class="token operator">|</span> Vue<span class="token punctuation">[</span><span class="token punctuation">]</span> <span class="token operator">|</span> Element<span class="token punctuation">[</span><span class="token punctuation">]</span> <span class="token punctuation">}</span><span class="token punctuation">;</span>
+    <span class="token keyword">readonly</span> refs<span class="token operator">:</span> <span class="token punctuation">{</span> <span class="token punctuation">[</span>key<span class="token operator">:</span> <span class="token builtin">string</span><span class="token punctuation">]</span><span class="token operator">:</span> Vue <span class="token operator">|</span> Element <span class="token operator">|</span> Vue<span class="token punctuation">[</span><span class="token punctuation">]</span> <span class="token operator">|</span> Element<span class="token punctuation">[</span><span class="token punctuation">]</span> <span class="token punctuation">}</span><span class="token punctuation">;</span>
   <span class="token punctuation">}</span>
 <span class="token punctuation">}</span>
 </code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br></div></div><h2 id="jsx使用方式"><a href="#jsx使用方式" class="header-anchor">#</a> jsx使用方式</h2> <p>修改 <code>.eslintrc.js</code> 文件中 <code>rules</code></p> <div class="language-js line-numbers-mode"><pre class="language-js"><code>module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
   <span class="token comment">// ...</span>
-  rules<span class="token punctuation">:</span> <span class="token punctuation">{</span>
-    <span class="token string">'no-unused-vars'</span><span class="token punctuation">:</span> <span class="token string">'off'</span>
+  rules<span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token string">'no-unused-vars'</span><span class="token operator">:</span> <span class="token string">'off'</span>
   <span class="token punctuation">}</span>
   <span class="token comment">// ...</span>
 <span class="token punctuation">}</span>
@@ -312,7 +311,7 @@ Vue<span class="token punctuation">.</span><span class="token function">use</spa
 <span class="token keyword">const</span> h <span class="token operator">=</span> createElement
 
 <span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token punctuation">{</span>
-  <span class="token function-variable function">setup</span><span class="token punctuation">:</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+  <span class="token function-variable function">setup</span><span class="token operator">:</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
     <span class="token keyword">return</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">(</span>
       <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>app<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token plain-text">
         </span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>nav<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token plain-text">
@@ -335,20 +334,21 @@ Vue<span class="token punctuation">.</span><span class="token function">use</spa
 
 <span class="token comment">// @ts-ignore</span>
 <span class="token keyword">const</span> router <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">VueRouter</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
-  mode<span class="token punctuation">:</span> <span class="token string">'history'</span><span class="token punctuation">,</span>
-  base<span class="token punctuation">:</span> process<span class="token punctuation">.</span>env<span class="token punctuation">.</span><span class="token constant">BASE_URL</span><span class="token punctuation">,</span>
+  mode<span class="token operator">:</span> <span class="token string">'history'</span><span class="token punctuation">,</span>
+  base<span class="token operator">:</span> process<span class="token punctuation">.</span>env<span class="token punctuation">.</span><span class="token constant">BASE_URL</span><span class="token punctuation">,</span>
   routes
 <span class="token punctuation">}</span><span class="token punctuation">)</span>
 
 <span class="token keyword">export</span> <span class="token keyword">default</span> router
 </code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br></div></div><div class="language-tsx line-numbers-mode"><pre class="language-tsx"><code><span class="token keyword">import</span> <span class="token punctuation">{</span>
-  createComponent<span class="token punctuation">,</span>
-  createElement
+  createElement<span class="token punctuation">,</span>
+  defineComponent
 <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'@vue/composition-api'</span>
+
 <span class="token keyword">const</span> h <span class="token operator">=</span> createElement
 
-<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token function">createComponent</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
-  <span class="token function-variable function">setup</span><span class="token punctuation">:</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token function">defineComponent</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  <span class="token function-variable function">setup</span><span class="token operator">:</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
     <span class="token keyword">return</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">(</span>
       <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>app<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token plain-text">
         </span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>nav<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token plain-text">
@@ -360,36 +360,37 @@ Vue<span class="token punctuation">.</span><span class="token function">use</spa
     <span class="token punctuation">)</span>
   <span class="token punctuation">}</span>
 <span class="token punctuation">}</span><span class="token punctuation">)</span>
-</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br></div></div><h2 id="举个🌰"><a href="#举个🌰" class="header-anchor">#</a> 举个🌰</h2> <div class="language-tsx line-numbers-mode"><pre class="language-tsx"><code><span class="token keyword">import</span> <span class="token punctuation">{</span>
-  createComponent<span class="token punctuation">,</span>
-  createElement<span class="token punctuation">,</span>
-  ref<span class="token punctuation">,</span>
-  onMounted<span class="token punctuation">,</span>
-  watch<span class="token punctuation">,</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br></div></div><h2 id="举个🌰"><a href="#举个🌰" class="header-anchor">#</a> 举个🌰</h2> <div class="language-tsx line-numbers-mode"><pre class="language-tsx"><code><span class="token keyword">import</span> <span class="token punctuation">{</span>
   computed<span class="token punctuation">,</span>
-  reactive
+  createElement<span class="token punctuation">,</span>
+  defineComponent<span class="token punctuation">,</span>
+  onMounted<span class="token punctuation">,</span>
+  reactive<span class="token punctuation">,</span>
+  ref<span class="token punctuation">,</span>
+  watch
 <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'@vue/composition-api'</span>
+
 <span class="token keyword">const</span> h <span class="token operator">=</span> createElement
 
 <span class="token keyword">interface</span> <span class="token class-name">State</span> <span class="token punctuation">{</span>
-  <span class="token punctuation">[</span>k<span class="token punctuation">:</span> <span class="token builtin">string</span><span class="token punctuation">]</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
-    name<span class="token punctuation">:</span> <span class="token builtin">string</span>
-    href<span class="token punctuation">:</span> <span class="token builtin">string</span>
+  <span class="token punctuation">[</span>k<span class="token operator">:</span> <span class="token builtin">string</span><span class="token punctuation">]</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    name<span class="token operator">:</span> <span class="token builtin">string</span>
+    href<span class="token operator">:</span> <span class="token builtin">string</span>
   <span class="token punctuation">}</span><span class="token punctuation">[</span><span class="token punctuation">]</span>
 <span class="token punctuation">}</span>
 
-<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token function">createComponent</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
-  name<span class="token punctuation">:</span> <span class="token string">'HelloWorld'</span><span class="token punctuation">,</span>
+<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token function">defineComponent</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  name<span class="token operator">:</span> <span class="token string">'HelloWorld'</span><span class="token punctuation">,</span>
 
-  props<span class="token punctuation">:</span> <span class="token punctuation">{</span>
-    msg<span class="token punctuation">:</span> <span class="token punctuation">{</span>
-      <span class="token keyword">type</span><span class="token punctuation">:</span> String<span class="token punctuation">,</span>
-      required<span class="token punctuation">:</span> <span class="token boolean">true</span>
+  props<span class="token operator">:</span> <span class="token punctuation">{</span>
+    msg<span class="token operator">:</span> <span class="token punctuation">{</span>
+      <span class="token keyword">type</span><span class="token operator">:</span> String<span class="token punctuation">,</span>
+      required<span class="token operator">:</span> <span class="token boolean">true</span>
     <span class="token punctuation">}</span>
   <span class="token punctuation">}</span><span class="token punctuation">,</span>
 
-  <span class="token function-variable function">setup</span><span class="token punctuation">:</span> <span class="token punctuation">(</span><span class="token parameter">props<span class="token punctuation">,</span> ctx</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
-    <span class="token keyword">const</span> <span class="token punctuation">{</span> refs<span class="token punctuation">,</span> root<span class="token punctuation">:</span> <span class="token punctuation">{</span> $route<span class="token punctuation">,</span> $router <span class="token punctuation">}</span> <span class="token punctuation">}</span> <span class="token operator">=</span> ctx
+  <span class="token function-variable function">setup</span><span class="token operator">:</span> <span class="token punctuation">(</span><span class="token parameter">props<span class="token punctuation">,</span> ctx</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+    <span class="token keyword">const</span> <span class="token punctuation">{</span> refs<span class="token punctuation">,</span> root<span class="token operator">:</span> <span class="token punctuation">{</span> $route<span class="token punctuation">,</span> $router <span class="token punctuation">}</span> <span class="token punctuation">}</span> <span class="token operator">=</span> ctx
     <span class="token function">watch</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> $route<span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token parameter">value</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
       <span class="token builtin">console</span><span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>value<span class="token punctuation">)</span>
     <span class="token punctuation">}</span><span class="token punctuation">)</span>
@@ -400,69 +401,69 @@ Vue<span class="token punctuation">.</span><span class="token function">use</spa
 
     <span class="token builtin">console</span><span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>routeName<span class="token punctuation">.</span>value<span class="token punctuation">)</span>
 
-    <span class="token keyword">const</span> state<span class="token punctuation">:</span> State <span class="token operator">=</span> <span class="token function">reactive</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
-      <span class="token string">'Installed CLI Plugins'</span><span class="token punctuation">:</span> <span class="token punctuation">[</span>
+    <span class="token keyword">const</span> state<span class="token operator">:</span> State <span class="token operator">=</span> <span class="token function">reactive</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+      <span class="token string">'Installed CLI Plugins'</span><span class="token operator">:</span> <span class="token punctuation">[</span>
         <span class="token punctuation">{</span>
-          name<span class="token punctuation">:</span> <span class="token string">'babel'</span><span class="token punctuation">,</span>
-          href<span class="token punctuation">:</span> <span class="token string">'https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel'</span>
+          name<span class="token operator">:</span> <span class="token string">'babel'</span><span class="token punctuation">,</span>
+          href<span class="token operator">:</span> <span class="token string">'https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel'</span>
         <span class="token punctuation">}</span><span class="token punctuation">,</span>
         <span class="token punctuation">{</span>
-          name<span class="token punctuation">:</span> <span class="token string">'typescript'</span><span class="token punctuation">,</span>
-          href<span class="token punctuation">:</span> <span class="token string">'https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-typescript'</span>
+          name<span class="token operator">:</span> <span class="token string">'typescript'</span><span class="token punctuation">,</span>
+          href<span class="token operator">:</span> <span class="token string">'https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-typescript'</span>
         <span class="token punctuation">}</span><span class="token punctuation">,</span>
         <span class="token punctuation">{</span>
-          name<span class="token punctuation">:</span> <span class="token string">'router'</span><span class="token punctuation">,</span>
-          href<span class="token punctuation">:</span> <span class="token string">'https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-router'</span>
+          name<span class="token operator">:</span> <span class="token string">'router'</span><span class="token punctuation">,</span>
+          href<span class="token operator">:</span> <span class="token string">'https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-router'</span>
         <span class="token punctuation">}</span><span class="token punctuation">,</span>
         <span class="token punctuation">{</span>
-          name<span class="token punctuation">:</span> <span class="token string">'eslint'</span><span class="token punctuation">,</span>
-          href<span class="token punctuation">:</span> <span class="token string">'https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-eslint'</span>
+          name<span class="token operator">:</span> <span class="token string">'eslint'</span><span class="token punctuation">,</span>
+          href<span class="token operator">:</span> <span class="token string">'https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-eslint'</span>
         <span class="token punctuation">}</span>
       <span class="token punctuation">]</span><span class="token punctuation">,</span>
 
-      <span class="token string">'Essential Links'</span><span class="token punctuation">:</span> <span class="token punctuation">[</span>
+      <span class="token string">'Essential Links'</span><span class="token operator">:</span> <span class="token punctuation">[</span>
         <span class="token punctuation">{</span>
-          name<span class="token punctuation">:</span> <span class="token string">'Core Docs'</span><span class="token punctuation">,</span>
-          href<span class="token punctuation">:</span> <span class="token string">'https://vuejs.org'</span>
+          name<span class="token operator">:</span> <span class="token string">'Core Docs'</span><span class="token punctuation">,</span>
+          href<span class="token operator">:</span> <span class="token string">'https://vuejs.org'</span>
         <span class="token punctuation">}</span><span class="token punctuation">,</span>
         <span class="token punctuation">{</span>
-          name<span class="token punctuation">:</span> <span class="token string">'Forum'</span><span class="token punctuation">,</span>
-          href<span class="token punctuation">:</span> <span class="token string">'https://forum.vuejs.org'</span>
+          name<span class="token operator">:</span> <span class="token string">'Forum'</span><span class="token punctuation">,</span>
+          href<span class="token operator">:</span> <span class="token string">'https://forum.vuejs.org'</span>
         <span class="token punctuation">}</span><span class="token punctuation">,</span>
         <span class="token punctuation">{</span>
-          name<span class="token punctuation">:</span> <span class="token string">'Community Chat'</span><span class="token punctuation">,</span>
-          href<span class="token punctuation">:</span> <span class="token string">'https://chat.vuejs.org'</span>
+          name<span class="token operator">:</span> <span class="token string">'Community Chat'</span><span class="token punctuation">,</span>
+          href<span class="token operator">:</span> <span class="token string">'https://chat.vuejs.org'</span>
         <span class="token punctuation">}</span><span class="token punctuation">,</span>
         <span class="token punctuation">{</span>
-          name<span class="token punctuation">:</span> <span class="token string">'Twitter'</span><span class="token punctuation">,</span>
-          href<span class="token punctuation">:</span> <span class="token string">'https://twitter.com/vuejs'</span>
+          name<span class="token operator">:</span> <span class="token string">'Twitter'</span><span class="token punctuation">,</span>
+          href<span class="token operator">:</span> <span class="token string">'https://twitter.com/vuejs'</span>
         <span class="token punctuation">}</span><span class="token punctuation">,</span>
         <span class="token punctuation">{</span>
-          name<span class="token punctuation">:</span> <span class="token string">'News'</span><span class="token punctuation">,</span>
-          href<span class="token punctuation">:</span> <span class="token string">'https://news.vuejs.org'</span>
+          name<span class="token operator">:</span> <span class="token string">'News'</span><span class="token punctuation">,</span>
+          href<span class="token operator">:</span> <span class="token string">'https://news.vuejs.org'</span>
         <span class="token punctuation">}</span>
       <span class="token punctuation">]</span><span class="token punctuation">,</span>
 
-      Ecosystem<span class="token punctuation">:</span> <span class="token punctuation">[</span>
+      Ecosystem<span class="token operator">:</span> <span class="token punctuation">[</span>
         <span class="token punctuation">{</span>
-          name<span class="token punctuation">:</span> <span class="token string">'vue-router'</span><span class="token punctuation">,</span>
-          href<span class="token punctuation">:</span> <span class="token string">'https://router.vuejs.org'</span>
+          name<span class="token operator">:</span> <span class="token string">'vue-router'</span><span class="token punctuation">,</span>
+          href<span class="token operator">:</span> <span class="token string">'https://router.vuejs.org'</span>
         <span class="token punctuation">}</span><span class="token punctuation">,</span>
         <span class="token punctuation">{</span>
-          name<span class="token punctuation">:</span> <span class="token string">'vuex'</span><span class="token punctuation">,</span>
-          href<span class="token punctuation">:</span> <span class="token string">'https://vuex.vuejs.org'</span>
+          name<span class="token operator">:</span> <span class="token string">'vuex'</span><span class="token punctuation">,</span>
+          href<span class="token operator">:</span> <span class="token string">'https://vuex.vuejs.org'</span>
         <span class="token punctuation">}</span><span class="token punctuation">,</span>
         <span class="token punctuation">{</span>
-          name<span class="token punctuation">:</span> <span class="token string">'vue-devtools'</span><span class="token punctuation">,</span>
-          href<span class="token punctuation">:</span> <span class="token string">'https://github.com/vuejs/vue-devtools#vue-devtools'</span>
+          name<span class="token operator">:</span> <span class="token string">'vue-devtools'</span><span class="token punctuation">,</span>
+          href<span class="token operator">:</span> <span class="token string">'https://github.com/vuejs/vue-devtools#vue-devtools'</span>
         <span class="token punctuation">}</span><span class="token punctuation">,</span>
         <span class="token punctuation">{</span>
-          name<span class="token punctuation">:</span> <span class="token string">'vue-loader'</span><span class="token punctuation">,</span>
-          href<span class="token punctuation">:</span> <span class="token string">'https://vue-loader.vuejs.org'</span>
+          name<span class="token operator">:</span> <span class="token string">'vue-loader'</span><span class="token punctuation">,</span>
+          href<span class="token operator">:</span> <span class="token string">'https://vue-loader.vuejs.org'</span>
         <span class="token punctuation">}</span><span class="token punctuation">,</span>
         <span class="token punctuation">{</span>
-          name<span class="token punctuation">:</span> <span class="token string">'awesome-vue'</span><span class="token punctuation">,</span>
-          href<span class="token punctuation">:</span> <span class="token string">'https://github.com/vuejs/awesome-vue'</span>
+          name<span class="token operator">:</span> <span class="token string">'awesome-vue'</span><span class="token punctuation">,</span>
+          href<span class="token operator">:</span> <span class="token string">'https://github.com/vuejs/awesome-vue'</span>
         <span class="token punctuation">}</span>
       <span class="token punctuation">]</span>
     <span class="token punctuation">}</span><span class="token punctuation">)</span>
@@ -506,11 +507,11 @@ Vue<span class="token punctuation">.</span><span class="token function">use</spa
     <span class="token punctuation">)</span>
   <span class="token punctuation">}</span>
 <span class="token punctuation">}</span><span class="token punctuation">)</span>
-</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br><span class="line-number">37</span><br><span class="line-number">38</span><br><span class="line-number">39</span><br><span class="line-number">40</span><br><span class="line-number">41</span><br><span class="line-number">42</span><br><span class="line-number">43</span><br><span class="line-number">44</span><br><span class="line-number">45</span><br><span class="line-number">46</span><br><span class="line-number">47</span><br><span class="line-number">48</span><br><span class="line-number">49</span><br><span class="line-number">50</span><br><span class="line-number">51</span><br><span class="line-number">52</span><br><span class="line-number">53</span><br><span class="line-number">54</span><br><span class="line-number">55</span><br><span class="line-number">56</span><br><span class="line-number">57</span><br><span class="line-number">58</span><br><span class="line-number">59</span><br><span class="line-number">60</span><br><span class="line-number">61</span><br><span class="line-number">62</span><br><span class="line-number">63</span><br><span class="line-number">64</span><br><span class="line-number">65</span><br><span class="line-number">66</span><br><span class="line-number">67</span><br><span class="line-number">68</span><br><span class="line-number">69</span><br><span class="line-number">70</span><br><span class="line-number">71</span><br><span class="line-number">72</span><br><span class="line-number">73</span><br><span class="line-number">74</span><br><span class="line-number">75</span><br><span class="line-number">76</span><br><span class="line-number">77</span><br><span class="line-number">78</span><br><span class="line-number">79</span><br><span class="line-number">80</span><br><span class="line-number">81</span><br><span class="line-number">82</span><br><span class="line-number">83</span><br><span class="line-number">84</span><br><span class="line-number">85</span><br><span class="line-number">86</span><br><span class="line-number">87</span><br><span class="line-number">88</span><br><span class="line-number">89</span><br><span class="line-number">90</span><br><span class="line-number">91</span><br><span class="line-number">92</span><br><span class="line-number">93</span><br><span class="line-number">94</span><br><span class="line-number">95</span><br><span class="line-number">96</span><br><span class="line-number">97</span><br><span class="line-number">98</span><br><span class="line-number">99</span><br><span class="line-number">100</span><br><span class="line-number">101</span><br><span class="line-number">102</span><br><span class="line-number">103</span><br><span class="line-number">104</span><br><span class="line-number">105</span><br><span class="line-number">106</span><br><span class="line-number">107</span><br><span class="line-number">108</span><br><span class="line-number">109</span><br><span class="line-number">110</span><br><span class="line-number">111</span><br><span class="line-number">112</span><br><span class="line-number">113</span><br><span class="line-number">114</span><br><span class="line-number">115</span><br><span class="line-number">116</span><br><span class="line-number">117</span><br><span class="line-number">118</span><br><span class="line-number">119</span><br><span class="line-number">120</span><br><span class="line-number">121</span><br><span class="line-number">122</span><br><span class="line-number">123</span><br><span class="line-number">124</span><br><span class="line-number">125</span><br><span class="line-number">126</span><br><span class="line-number">127</span><br><span class="line-number">128</span><br><span class="line-number">129</span><br><span class="line-number">130</span><br><span class="line-number">131</span><br><span class="line-number">132</span><br><span class="line-number">133</span><br><span class="line-number">134</span><br><span class="line-number">135</span><br><span class="line-number">136</span><br><span class="line-number">137</span><br><span class="line-number">138</span><br><span class="line-number">139</span><br><span class="line-number">140</span><br><span class="line-number">141</span><br><span class="line-number">142</span><br><span class="line-number">143</span><br><span class="line-number">144</span><br><span class="line-number">145</span><br><span class="line-number">146</span><br></div></div></div> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">上次更新:</span> <span class="time">6 个月前</span></div></footer> <div class="page-nav"><p class="inner"><span class="prev">
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br><span class="line-number">37</span><br><span class="line-number">38</span><br><span class="line-number">39</span><br><span class="line-number">40</span><br><span class="line-number">41</span><br><span class="line-number">42</span><br><span class="line-number">43</span><br><span class="line-number">44</span><br><span class="line-number">45</span><br><span class="line-number">46</span><br><span class="line-number">47</span><br><span class="line-number">48</span><br><span class="line-number">49</span><br><span class="line-number">50</span><br><span class="line-number">51</span><br><span class="line-number">52</span><br><span class="line-number">53</span><br><span class="line-number">54</span><br><span class="line-number">55</span><br><span class="line-number">56</span><br><span class="line-number">57</span><br><span class="line-number">58</span><br><span class="line-number">59</span><br><span class="line-number">60</span><br><span class="line-number">61</span><br><span class="line-number">62</span><br><span class="line-number">63</span><br><span class="line-number">64</span><br><span class="line-number">65</span><br><span class="line-number">66</span><br><span class="line-number">67</span><br><span class="line-number">68</span><br><span class="line-number">69</span><br><span class="line-number">70</span><br><span class="line-number">71</span><br><span class="line-number">72</span><br><span class="line-number">73</span><br><span class="line-number">74</span><br><span class="line-number">75</span><br><span class="line-number">76</span><br><span class="line-number">77</span><br><span class="line-number">78</span><br><span class="line-number">79</span><br><span class="line-number">80</span><br><span class="line-number">81</span><br><span class="line-number">82</span><br><span class="line-number">83</span><br><span class="line-number">84</span><br><span class="line-number">85</span><br><span class="line-number">86</span><br><span class="line-number">87</span><br><span class="line-number">88</span><br><span class="line-number">89</span><br><span class="line-number">90</span><br><span class="line-number">91</span><br><span class="line-number">92</span><br><span class="line-number">93</span><br><span class="line-number">94</span><br><span class="line-number">95</span><br><span class="line-number">96</span><br><span class="line-number">97</span><br><span class="line-number">98</span><br><span class="line-number">99</span><br><span class="line-number">100</span><br><span class="line-number">101</span><br><span class="line-number">102</span><br><span class="line-number">103</span><br><span class="line-number">104</span><br><span class="line-number">105</span><br><span class="line-number">106</span><br><span class="line-number">107</span><br><span class="line-number">108</span><br><span class="line-number">109</span><br><span class="line-number">110</span><br><span class="line-number">111</span><br><span class="line-number">112</span><br><span class="line-number">113</span><br><span class="line-number">114</span><br><span class="line-number">115</span><br><span class="line-number">116</span><br><span class="line-number">117</span><br><span class="line-number">118</span><br><span class="line-number">119</span><br><span class="line-number">120</span><br><span class="line-number">121</span><br><span class="line-number">122</span><br><span class="line-number">123</span><br><span class="line-number">124</span><br><span class="line-number">125</span><br><span class="line-number">126</span><br><span class="line-number">127</span><br><span class="line-number">128</span><br><span class="line-number">129</span><br><span class="line-number">130</span><br><span class="line-number">131</span><br><span class="line-number">132</span><br><span class="line-number">133</span><br><span class="line-number">134</span><br><span class="line-number">135</span><br><span class="line-number">136</span><br><span class="line-number">137</span><br><span class="line-number">138</span><br><span class="line-number">139</span><br><span class="line-number">140</span><br><span class="line-number">141</span><br><span class="line-number">142</span><br><span class="line-number">143</span><br><span class="line-number">144</span><br><span class="line-number">145</span><br><span class="line-number">146</span><br><span class="line-number">147</span><br></div></div></div> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">上次更新:</span> <span class="time">6 个月前</span></div></footer> <div class="page-nav"><p class="inner"><span class="prev">
       ←
       <a href="/blog/vue/vue-next/vue-next尝鲜.html" class="prev">
         vue-next尝鲜
-      </a></span> <!----></p></div> </main></div><div class="global-ui"><!----><!----><div class="reading-progress top" data-v-56679cca><div class="progress" data-v-56679cca></div></div></div></div>
-    <script src="/blog/assets/js/app.1fb47c7b.js" defer></script><script src="/blog/assets/js/3.e23d2e11.js" defer></script><script src="/blog/assets/js/42.023d23fe.js" defer></script><script src="/blog/assets/js/4.8e0d770d.js" defer></script>
+      </a></span> <!----></p></div> </main></div><div class="global-ui"><!----><!----><div class="reading-progress top" data-v-21b39eda><div class="progress" data-v-21b39eda></div></div></div></div>
+    <script src="/blog/assets/js/app.80e45fab.js" defer></script><script src="/blog/assets/js/3.bd4970f9.js" defer></script><script src="/blog/assets/js/42.a4755737.js" defer></script><script src="/blog/assets/js/4.93956780.js" defer></script>
   </body>
 </html>
