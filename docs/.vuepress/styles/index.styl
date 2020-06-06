@@ -39,9 +39,17 @@ div[class~="language-jsx"] {
   }
 }
 
+div[class*="language-"] pre,
+div[class*="language-"] pre[class*="language-"] {
+  position: static;
+}
+
 .code-copy {
   position: absolute;
   top: 1.2em;
-  right: 0;
-  opacity: 0;
+  right: 2em;
+
+  svg {
+    position: static;
+  }
 }
